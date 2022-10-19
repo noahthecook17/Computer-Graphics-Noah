@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="glad.c" />
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingBox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsModel.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mesh.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="modelLoader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="cubeAndPlane.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="learnopengl_camera.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader_H.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBox.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="fragment.glsl">
+      <Filter>resources\shaders\main</Filter>
+    </ClInclude>
+    <ClInclude Include="vertex.glsl">
+      <Filter>resources\shaders\main</Filter>
+    </ClInclude>
+    <ClInclude Include="fragmentBuffer.glsl">
+      <Filter>resources\shaders\texturedQuad</Filter>
+    </ClInclude>
+    <ClInclude Include="vertexBuffer.glsl">
+      <Filter>resources\shaders\texturedQuad</Filter>
+    </ClInclude>
+    <ClInclude Include="fragOutline.glsl">
+      <Filter>resources\shaders\outline</Filter>
+    </ClInclude>
+    <ClInclude Include="vertexOutline.glsl">
+      <Filter>resources\shaders\outline</Filter>
+    </ClInclude>
+    <ClInclude Include="resource2.h" />
+    <ClInclude Include="cubevertex.glsl">
+      <Filter>resources\shaders\skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="cubefragment.glsl">
+      <Filter>resources\shaders\skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="reflectionVertex.glsl">
+      <Filter>resources\shaders\reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="reflectionFragment.glsl">
+      <Filter>resources\shaders\reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry.glsl">
+      <Filter>resources\shaders\geometryShader</Filter>
+    </ClInclude>
+    <ClInclude Include="vertexg.glsl">
+      <Filter>resources\shaders\geometryShader</Filter>
+    </ClInclude>
+    <ClInclude Include="fragmentg.glsl">
+      <Filter>resources\shaders\geometryShader</Filter>
+    </ClInclude>
+    <ClInclude Include="12-DOP.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="rayVertex.glsl">
+      <Filter>resources\shaders\rayCasting</Filter>
+    </ClInclude>
+    <ClInclude Include="rayFragment.glsl">
+      <Filter>resources\shaders\rayCasting</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsModel.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="OBB.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="background.png">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="blending_transparent_window.png">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="container.png">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="fish_scales.jpg">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="grass.png">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="rock.jpg">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="woodfloor.png">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="skybox\back.jpg">
+      <Filter>resources\textures\ocean_skybox</Filter>
+    </Image>
+    <Image Include="skybox\bottom.jpg">
+      <Filter>resources\textures\ocean_skybox</Filter>
+    </Image>
+    <Image Include="skybox\front.jpg">
+      <Filter>resources\textures\ocean_skybox</Filter>
+    </Image>
+    <Image Include="skybox\right.jpg">
+      <Filter>resources\textures\ocean_skybox</Filter>
+    </Image>
+    <Image Include="skybox\left.jpg">
+      <Filter>resources\textures\ocean_skybox</Filter>
+    </Image>
+    <Image Include="skybox\top.jpg">
+      <Filter>resources\textures\ocean_skybox</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{17a5c2c5-2b97-4ab8-84ac-3c853e990872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4a914869-84d9-494d-9b81-e82d893f7963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{a1de9084-9cd6-44ec-9538-50dbc8557f1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures">
+      <UniqueIdentifier>{7e8e2622-5a90-4da8-8ce8-f405df3794bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\objects">
+      <UniqueIdentifier>{0c24cfb8-fc47-4861-914f-49ec7441cf38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures\ocean_skybox">
+      <UniqueIdentifier>{fdd1ea6c-dafb-4da6-b996-3b39995e5b7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\shaders">
+      <UniqueIdentifier>{cad2bb1a-16f9-4d8a-bc3a-1a0131ed7f32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\shaders\main">
+      <UniqueIdentifier>{270e1c6e-21e0-4307-a5ca-f8fcdbfd6c46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\shaders\texturedQuad">
+      <UniqueIdentifier>{5d742fc8-efda-4cc9-b11c-d912a68a0b47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\shaders\skybox">
+      <UniqueIdentifier>{1ca88461-1744-427f-bb8d-0a6fd3897bc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\shaders\outline">
+      <UniqueIdentifier>{777d008c-76ba-44d2-8e7e-161c8bd28f6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\shaders\reflection">
+      <UniqueIdentifier>{5a8aaf6f-9698-4556-bdf8-6e675bd0a78e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\shaders\geometryShader">
+      <UniqueIdentifier>{e76d2e9b-63ff-49bc-a071-cd358e8fdacd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\shaders\rayCasting">
+      <UniqueIdentifier>{c671af0f-02e2-4d75-94fe-a7dc2540a1d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\models">
+      <UniqueIdentifier>{6a87f946-55c1-4913-aeb9-74cface35278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\shaders\Shadows">
+      <UniqueIdentifier>{ca5de8a5-61e4-4616-a9a1-e88a20f140e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="fish_1.obj">
+      <Filter>resources\objects</Filter>
+    </Object>
+    <Object Include="BetterDiver.obj">
+      <Filter>resources\objects</Filter>
+    </Object>
+    <Object Include="floor.obj">
+      <Filter>resources\objects</Filter>
+    </Object>
+    <Object Include="badcube.obj">
+      <Filter>resources\objects</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Computer Graphics2.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shadowMapVert.glsl">
+      <Filter>resources\shaders\Shadows</Filter>
+    </None>
+    <None Include="shadowMapFrag.glsl">
+      <Filter>resources\shaders\Shadows</Filter>
+    </None>
+  </ItemGroup>
+</Project>

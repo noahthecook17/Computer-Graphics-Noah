@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="glad.c" />
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingBox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mesh.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="modelLoader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="cubeAndPlane.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="learnopengl_camera.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader_H.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vertex.glsl">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="basicfragment.glsl">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="basicvertex.glsl">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="fragment.glsl">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBox.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="woodfloor.png">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="background.png">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="container.png">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="fish_scales.jpg">
+      <Filter>resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{17a5c2c5-2b97-4ab8-84ac-3c853e990872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4a914869-84d9-494d-9b81-e82d893f7963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{a1de9084-9cd6-44ec-9538-50dbc8557f1a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="fish_1.obj">
+      <Filter>resources</Filter>
+    </Object>
+    <Object Include="BetterDiver.obj">
+      <Filter>resources</Filter>
+    </Object>
+  </ItemGroup>
+</Project>
